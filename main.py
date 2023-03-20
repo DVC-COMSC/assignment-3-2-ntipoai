@@ -1,9 +1,5 @@
 def main():
-    ##################################################
-    # Comlete your code here
-    ##################################################
-    pass
-email = input('Enter your string ')
+  email = input('Enter your string ')
 
 flag = True
 if not email[0].isalpha():
@@ -19,6 +15,8 @@ if email[atidx+1:].find('.') == -1:
     flag = False
 
 print (flag)
+    pass
+
 
 if __name__ == '__main__':
     main()
